@@ -1,0 +1,18 @@
+#aboutme {
+    font-size: 2em;
+}
+#me {
+    margin: 20px;
+}
+#image {
+    float: right;
+    size: 350px;
+    padding: 15px;
+  
+}
+#img {
+    margin: 50px;
+    background-color: lightgray;
+    border: 2px black;
+    font: purple;
+}
