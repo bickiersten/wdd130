@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
 #id {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: #1d2f6f;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -22,6 +25,10 @@ main section {
 }
 body {
     background-color: #f9f9f9;
+    font-family: Tahoma, Helvetica;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #7fc8f8;
@@ -34,6 +41,10 @@ nav a:hover {
     background-color: #f9f9f9;
     color: #1d2f6f;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #FFE45E;
@@ -41,21 +52,31 @@ nav a:hover {
 }
 .msg {
     background-color: #FFE45E;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #1d2f6f;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: black;
+    font-family: "IM Fell French Canon SC";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
 }
 .msg h2 {
     color: black;
+    font-family: "IM Fell French Canon SC"
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: lightgray;
@@ -72,10 +93,29 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.view-card, .intense-card, .peaceful-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #FFE45E;
+}
+main section img {
+    box-sizing: border-box;
 }
