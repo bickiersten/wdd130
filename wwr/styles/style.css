@@ -191,8 +191,6 @@ main, .home-grid {
 }
 #logo {
     border-radius: 10px;
-    height: 95px;
-    width: 100px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
