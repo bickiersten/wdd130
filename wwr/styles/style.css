@@ -23,7 +23,7 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: #f9f9f9;
+    background-color: #7fc8f8;
 }
 body {
     background-color: #f9f9f9;
@@ -81,15 +81,20 @@ h4 {
 }
 .msg h2 {
     color: black;
+    font-size: 35px;
     font-family: "IM Fell French Canon SC"
 }
 .msg p {
     color: black;
     font-size: .8em;
     padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 40px;
 }
 footer h3 {
     color: lightgray;
+    font-size: 18px;
+    font-weight: lighter;
 }
 footer a {
     color: black;
@@ -183,6 +188,11 @@ main, .home-grid {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+#logo {
+    border-radius: 10px;
+    height: 95px;
+    width: 100px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
