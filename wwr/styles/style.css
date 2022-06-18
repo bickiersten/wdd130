@@ -192,6 +192,112 @@ main, .home-grid {
 #logo {
     border-radius: 10px;
 }
+#page2-title {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.rates-title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: center;
+    margin-top: 30px;
+    border: #7fc8f8 solid 10px;
+    background-color: #7fc8f8;
+    color: black;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.season {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-self: center;
+    font-size: 20px;
+}
+#rates-dates {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 2fr 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: -100px;
+    margin-top: -30px;
+}
+#grand3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#grand-photo {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+#grand6 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+#salmonriver-photo {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top: -100px;
+}
+#salmon {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 30px;
+}
+#desolation-photo {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-top: -200px;
+}
+#desolation {
+    grid-column: 6/7;
+    grid-row: 2/3;
+    margin-top: 30px;
+}
+#extrainfo {
+    grid-column: 2/7;
+    justify-self: center;
+    margin-top: 30px;
+}
+.trips {
+    background-color: #7fc8f8;
+    border: #7fc8f8 solid 5px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.trip-photo {
+    border: #1d2f6f solid 4px;
+    box-shadow: 5px 5px 10px #6f7364; 
+    margin-left: 20px;  
+}
+.pricing {
+    background-color: #FFE45E;
+    border: #FFE45E solid;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.dates{
+    border: black solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.dates li {
+  padding-bottom: 7px;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 80px;
+}
+.dates h5 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.extrainfo {
+    border: #7fc8f8 solid;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
