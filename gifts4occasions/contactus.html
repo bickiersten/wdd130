@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifts 4 Occasions | Contact</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img id="logo" src="images/giftslogo.png" alt="Gifts 4 Occasions Logo" height="95" width="100">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop Here</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <div id="contactus">
+    <div id="leaves">
+        <img class="contact-photo" src="images/priscilla-du-preez-bJPn27RFg0Y-unsplash.jpg" alt="image for page3" height="200" width="300">   
+    </div>
+    <section id="contact-title">
+        <h2 class="contact-title">Contact Us</h2>
+    </section>
+    <div id="frontstep">
+        <img class="contact-photo" src="images/element5-digital-HnyPuEgW0O8-unsplash.jpg" alt="image for page3" height="200" width="300">
+    </div>
+</div>
+    <main>
+        <div id="para5">
+            <p class="paragraph">Contact us here! This page allows you to contact us here and is especially helpful in making recommendations for the upcoming holidays! Submit a form to us with what gift you might be hoping to see come to the site for purchasing during the next holiday. This will not only help you in possibly seeing your recommendation come to the site, but it also helps us know what people are looking for in terms of holiday gifts.</p>
+        </div>
+        <div id="para6">
+            <p class="paragraph">This is also a way for you to give us feedback on a couple different things. The first thing is our service. How did we do overall? Were you satisfied with our service? Did your special someone enjoy the gift they got? Another thing you could give us feedback on is how the gift selection for the current holiday is. This will be another way for us to gage our customer's satisfaction. There are so many things we would love to hear about and we would also love to hear about how we could do better! So don't hesitate to contact us!</p>
+        </div>
+        <section id="form-title">
+            <h3>Fill out the following:</h3>
+        </section>
+    <div>
+        <div id="feedback"></div>
+    </div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message">Enter your message here...</textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Sumbit</button>
+              </li>
+           </ul>
+    </form>
+</main>
+    <footer>
+        <h3>Gifts 4 Occasions &copy; 2022 - Kiersten Bickmore</h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    </div>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
