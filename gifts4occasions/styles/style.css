@@ -270,3 +270,143 @@ margin-left: .5em;
     border-radius: 10px;
     border: #381d2a solid;
 }
+#shop-title {
+    background-color: #aabd8c;
+    margin-top: -10px;
+    height: 150px;
+    border: #381d2a solid;
+}
+.shop-title {
+    text-align: center;
+    font-size: 50px;
+    background-color: #ffffff;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: #381d2a solid;
+    font-family: 'Secular One', sans-serif;
+    word-spacing: 10px; 
+}
+#shopmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#para3 {
+    grid-column: 1/9;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    border: #9e90a2 solid;
+    margin-bottom: 65px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 25px;   
+}
+#para4 {
+    grid-column: 1/9;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 20px;
+    line-height: 25px;
+    border: #381d2a solid 6px;
+    margin-bottom: 65px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 25px;   
+    background-color: #9e90a2; 
+}
+#fourth-title {
+    grid-column: 1/9;
+    justify-self: center;
+}
+#fourthgift {
+    grid-column: 1/9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#hallow-title {
+    grid-column: 1/9;
+    justify-self: center;
+}
+#halloweengift {
+    grid-column: 1/9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}   
+.holiday {
+    background-color: #ffffff;
+    border: #000 solid;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -140px;
+    position: absolute;
+    margin-left: 120px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.shop-photo {
+    border: #381d2a solid;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.cheap {
+    grid-column: 1/2;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    border: #9e90a2 solid 5px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.middle {
+    grid-column: 3/4;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: #6f7364 solid 5px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.high {
+    grid-column: 5/6;
+    margin-bottom: 70px;
+    margin-right: 150px;
+    border: #381d2a solid 5px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.cheap:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.middle:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.high:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.price {
+    text-align: center;
+    font-weight: bolder;
+    border: #381d2a solid thin;
+}
+.desc {
+    text-align: center;
+}
+.holiday-gift {
+    justify-self: center;
+    border: #000 solid;
+}
